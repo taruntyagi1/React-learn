@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-menu .nav-item  {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+.nav-item a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    transition: 1s ease;
+    
+}
+.nav-item a:hover{
+    font-size: 20px;
+    transition: 1s ease;
+}
+.nav-menu {
+    display: flex;
+    align-content: space-around;
+    gap: 50px;
+    float: right;
+    margin-top: -40px;
+    position: fixed;
+    right: 30px;
+}
+.nav img{
+    width: 200px;
+    height: 59px;
+}
+.nav-img{
+    padding: 0px;
+    width: 0px;
+}
